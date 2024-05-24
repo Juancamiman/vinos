@@ -1,0 +1,360 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Poppins´, sans-serif;
+}
+
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+         rgba(0,0,0,0.7));  
+         background-size: cover;
+         height: 350px;
+         display: flex;  
+         flex-direction: column;
+         justify-content: space-evenly;
+} 
+
+  .menu .navbar ul li a{
+    width: 80%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  } 
+
+  ul{
+    width: 40%;
+    margin-left: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+      
+    .header-content h1 {
+        text-align: center;
+        font-size: 75px;
+        line-height: 80px;
+        color: #F9FAFC;
+        text-transform: uppercase;
+        margin-bottom: 35PX;
+    }
+
+
+    .btn-1 {
+        display: inline-block;
+        padding: 11px 35px;
+        background-color: #ce967b;
+        color: #F9FAFC;
+        text-transform: uppercase;
+    }
+
+    .btn-1:hover {
+        background-color: #ebad8d;
+    }
+
+    .coffee {
+        padding: 100px;
+        background-color: #e1e2e6;
+        position: relative;
+    }
+
+    .coffee-content {
+        text-align: center;
+    }
+
+    .coffee-content h2 {
+        font-size: 55px;
+        line-height: 70px;
+        color: #323337;
+        padding: 0 250px;
+        margin-bottom: 15px;
+    }
+
+
+    .txt-p {
+        font-size: 16px;
+        color: #414247;
+        padding: 0 250px;
+        margin-bottom: 35px;
+
+    }
+     .coffee-group {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+     }
+     .coffee-1 {
+        padding: 0 25px;
+     } 
+
+    .coffee-1 img {
+        width: 200px;
+    }
+    
+
+    .coffee-img {
+        position:absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    .coffee-1 h3 {
+        color: #323337;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .services {
+        background-image: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7));
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 100px 0;
+    }
+
+     .services-content {
+        text-align: center;
+     }
+
+     .services-content h2 {
+        font-size: 55px;
+        line-height: 70px;
+        color: #F9FAFC;
+        text-transform: uppercase;
+        margin-bottom: 50PX;
+     }
+
+     .services-content p {
+        font-size: 16px;
+        color: #c5c5c5;
+        margin-bottom: 50px;
+        padding: 0 100px;
+     }
+
+     .services-group {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin-bottom: 50px;
+     }
+
+     .services-group h3{
+        color: #ffff;
+     }
+
+     .general {
+        display: flex;
+     }
+
+     .general-1 {
+        width: 50%;
+        padding: 100px 250px 100px 100px;
+        background-color: #e1e2e6;
+     }
+
+     .general-2 {
+        background-image: url(images/coffee-1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+     }
+     .general-3 {
+        background-image: url(images/coffee-2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+     } 
+
+     h2{
+        font-size: 55px;
+        line-height: 70px;
+        color: #323337;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+     }
+    
+     p{
+        font-size: 16px;
+        color: #414247;
+        margin: 25 0 45px 0;
+     }
+
+     .blog {
+        padding: 100px 0;
+        text-align: center;
+     }
+
+     .blog-content {
+        display: flex;
+        justify-content: space-between;
+     }
+
+     .blog-1 {
+        padding: 15px 55px;
+     }
+
+     .blog-1 img {
+        width: 250px;
+        border-radius: 15px;
+        margin-bottom: 150px;
+     }
+
+     .blog-1 h3{
+        font-size: 25px;
+        color: #323337;
+     }
+
+
+
+
+     @media(max-width: 1500px) {
+
+        .bodega-responsiva{
+            height: 800px;
+            margin-left: 25%;
+        }
+     }
+
+
+     @media(max-width: 1300px) {
+
+        .bodega-responsiva{
+            height: 600px;
+        }
+     }
+
+
+    @media(max-width:991px) {
+
+
+    .vino {
+        padding: 30px;
+    }
+
+    .vino-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .vino-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .vino-img {
+        display: none;
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-content {
+        padding: 0;
+    }
+
+    .services-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .services-1 {
+        margin-bottom: 25px;
+    }
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2, .general-3 {
+        display: none;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+
+    .menu .navbar ul li a {
+        color: #FFFFFF;
+    }
+
+    
+    .bodega-responsiva{
+        height: 500px;
+    }
+
+    }
+
+
+
+@media(max-width: 850px) {
+
+
+    .header {
+        background-image: linear-gradient(
+            rgba(0,0,0,0.7),
+             rgba(0,0,0,0.7));  
+             height: 550px;
+             display: flex;  
+             flex-direction: column;
+             justify-content: space-evenly;
+    } 
+
+      ul{
+        height: 300px;
+        margin-left: 45%;
+        display: flex;
+        flex-direction: column;
+      }
+
+    .escaparate-responsivo{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .bodega-responsiva{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .vino-responsivo{
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+}
+
+
+
+
+
